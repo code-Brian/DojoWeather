@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dojo Weather</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="head">DojoWeather</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="city">Burbank</a></li>
+                    <li><a href="#" class="city">Chicago</a></li>
+                    <li><a href="#" class="city">Dallas</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-content">
+            <div class="main-content-header">
+                <h2 class="main-h2">San Jose</h2>
+                <form action="#">
+                    <p>show temperature in</p>
+                    <select name="temperature" id="temperature">
+                        <option value="°C">°C</option>
+                        <option value="°F">°F</option>
+                    </select>
+                </form>
+            </div>
+            <div class="main-content-card-container">
+                <div class="card">
+                    <h3>Today</h3>
+                    <img src="img/some_rain.png" alt="an image of a rain cloud lightly raining" class="wthr-img">
+                    <p class="card-mid">some rain</p>
+                    <div class="temperature-range">
+                        <p class="degree"><span class="high">24</span>°</p>
+                        <p class="degree"><span class="low">18</span>°</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Tomorrow</h3>
+                    <img src="img/some_sun.png" alt="an image of a sun shining" class="wthr-img">
+                    <p class="card-mid">some sun</p>
+                    <div class="temperature-range">
+                        <p class="degree"><span class="high">27</span>°</p>
+                        <p class="degree"><span class="low">19</span>°</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Friday</h3>
+                    <img src="img/some_clouds.png" alt="a gray cloud" class="wthr-img">
+                    <p class="card-mid">some clouds</p>
+                    <div class="temperature-range">
+                        <p class="degree"><span class="high">21</span>°</p>
+                        <p class="degree"><span class="low">16</span>°</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Saturday</h3>
+                    <img src="img/some_sun.png" alt="a sun shining" class="wthr-img">
+                    <p class="card-mid">some sun</p>
+                    <div class="temperature-range">
+                        <p class="degree"><span class="high">26</span>°</p>
+                        <p class="degree"><span class="low">21</span>°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="cookie-footer">
+            <img src="img/cookie.png" alt="a cookie that has a bite taken out of it in the top right" class="ckie-img">
+            <div class="cookie">
+                <h2>
+                    Stop! Cookie time
+                </h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, 
+                    to provide social media features, and to analyse our traffic.
+                <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button class="btn" id="accept">I Accept</button>
+        </footer>
+    </div>
+</body>
+</html>

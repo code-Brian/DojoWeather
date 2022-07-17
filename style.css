@@ -1,0 +1,157 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+/* Selector styling for main containers */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.main-content {
+    width: 1000px;
+}
+
+/* Syling for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color:#9fc5f8;
+    padding: 1rem;
+}
+
+.head {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+
+/* Header for the main content */
+.main-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    font-size: 1.5rem;
+    color: black;
+    border-bottom: 3px black solid;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+}
+
+form p {
+    margin-right: 1rem;
+}
+
+/* Content for the main section of the page */
+.main-content-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling properties for the cards within main content */
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.wthr-img {
+    height: 100%;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.temperature-range {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.high, .low, .degree {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-mid {
+    margin-bottom: 1rem;
+}
+
+/* Styling for the footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: gray;
+    padding: 0.5rem;
+    border: 5px solid black;
+}
+
+.ckie-img {
+    height: 100%;
+    width: 75px;
+}
+
+.cookie {
+    margin: 0 .5rem;
+    flex: 2;
+}
+
+.btn {
+    flex: 1;
+}
